@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "one" {
   count                  = 4
-  ami                    = "ami-0fa3fe0fa7920f68e"
+  ami                    = "ami-0ecb62995f68bb549"
   instance_type          = "c7i-flex.large"
   key_name               = "terraform"
   vpc_security_group_ids = ["sg-0826049ef32541fe1"]
